@@ -12,12 +12,8 @@ function App() {
           <Route path='/Admin/' element={<Admin/>}/>
           <Route path='/Users/' element={<Users/>}/>
           <Route path='/Login/' element={<Login/>}/>
-          
         </Routes>
-        
         </BrowserRouter>
-
   )
 }
-
 export default App

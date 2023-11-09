@@ -9,7 +9,6 @@ function Login() {
   const onSubmit = data => {
     console.log(data);
   };
-
   return (
     <div className="login-container">
       <form className="login-box" onSubmit={handleSubmit(onSubmit)}>
